@@ -55,11 +55,13 @@ import inspect
 
 log = logging.getLogger(__name__)
 
-try:
-    import nacl.secret
-    has_nacl = True
-except ImportError:
-    has_nacl = False
+import nacl.secret
+
+#try:
+#    import nacl.secret
+#    has_nacl = True
+#except ImportError:
+#    has_nacl = False
 
 from . import utils, opus
 from .gateway import *
