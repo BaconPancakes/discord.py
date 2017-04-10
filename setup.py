@@ -27,7 +27,7 @@ extras_require = {
 
 setup(name='discord.py',
       author='Rapptz',
-      url='https://github.com/Rapptz/discord.py',
+      url='https://github.com/baconpancakes/discord.py',
       version=version,
       packages=find_packages(),
       license='MIT',
